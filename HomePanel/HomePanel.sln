@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{3340880C-A63A-416B-B3A3-C1B9C94AC2E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspNetCore", "AspNetCore", "{03096EBC-117B-4905-B489-66201A33ED73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "React", "React", "{823C935B-DB25-4003-9761-3E0A3A1335C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomePanel.AspNetCore", "Applications\AspNetCore\HomePanel.AspNetCore\HomePanel.AspNetCore.csproj", "{AF60378D-AF05-44A6-8ACB-0203F3F38496}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF60378D-AF05-44A6-8ACB-0203F3F38496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF60378D-AF05-44A6-8ACB-0203F3F38496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF60378D-AF05-44A6-8ACB-0203F3F38496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF60378D-AF05-44A6-8ACB-0203F3F38496}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03096EBC-117B-4905-B489-66201A33ED73} = {3340880C-A63A-416B-B3A3-C1B9C94AC2E1}
+		{823C935B-DB25-4003-9761-3E0A3A1335C6} = {3340880C-A63A-416B-B3A3-C1B9C94AC2E1}
+		{AF60378D-AF05-44A6-8ACB-0203F3F38496} = {03096EBC-117B-4905-B489-66201A33ED73}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C4BDB2E-A76B-4178-9E63-D921CB4EBD87}
+	EndGlobalSection
+EndGlobal
