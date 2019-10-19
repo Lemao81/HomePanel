@@ -1,5 +1,5 @@
-import { ITileViewModel } from '../models/ITileViewModel';
+import { ITileConfiguration } from '../models/ITileViewModel';
 
-export const androidDevStartup: ITileViewModel = {
-    title: 'Android Dev Startup'
-}
+export const androidStartupTileConfiguration: ITileConfiguration = {
+  title: 'Android Dev Startup'
+};

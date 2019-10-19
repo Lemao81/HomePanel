@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component, ReactNode } from 'react';
 import './App.css';
 import { Panel } from './components/Panel';
 
-function App() {
-  return (
-    <Panel />
-  );
+class App extends Component {
+  render(): ReactNode {
+    return <Panel />;
+  }
 }
 
 export default App;
