@@ -1,13 +1,13 @@
-import React from 'react';
-import { Tile } from './Tile'
-import { androidDevStartup } from '../constants/TileData';
+import React, { Component, ReactNode } from 'react';
+import { Tile } from './Tile';
+import { androidStartupTileConfiguration } from '../constants/TileData';
 
-export class Panel extends React.Component {
-    render() {
-        return (
-            <div className="panel">
-                <Tile {...androidDevStartup} />
-            </div>
-        )
-    }
+export class Panel extends Component {
+  render(): ReactNode {
+    return (
+      <div className="panel">
+        <Tile configuration={androidStartupTileConfiguration} />
+      </div>
+    );
+  }
 }

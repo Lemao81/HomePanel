@@ -1,3 +1,3 @@
-export interface ITileViewModel {
-    title: String;
+export interface ITileConfiguration {
+  title: String;
 }

@@ -1,14 +1,16 @@
-import React from 'react';
-import { ITileViewModel } from '../models/ITileViewModel';
+import React, { Component, ReactNode } from 'react';
+import { ITileConfiguration } from '../models/ITileViewModel';
 
-export class Tile extends React.Component {
-  render() {
-    const viewModel = this.props as ITileViewModel;
+type TileState = {
+  configuration: ITileConfiguration;
+};
 
-    return (
-      <div className="tile">
-        {viewModel.title}
-      </div>
-    )
+export class Tile extends Component<TileState> {
+  state = {
+    configuration: this.props.configuration
+  };
+
+  render(): ReactNode {
+    return <div className="tile">{this.state.configuration.title}</div>;
   }
 }
